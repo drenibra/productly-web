@@ -1,0 +1,357 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+li, a, button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2F281E;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navlogo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 27px;
+}
+
+.container{
+    margin: auto;
+    max-width: 1400px   ;
+}
+
+.container{
+    margin: auto;
+    max-width: 1400px   ;
+}
+
+[class*="section-title"] {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.section-title--big {
+    font-size: 44px;
+    line-height: 1.22em;
+}
+
+.section-title--small {
+    font-size: 36px;
+    padding-top: 130px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#first-title {
+    padding-top: 130px;
+}
+
+#second{
+    padding-top: 10px;
+}
+
+.article-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.articles .title {
+    padding-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+
+.nentitull-small {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.63em;
+    color: #2F281E;
+}
+
+.effortless-validation{
+    padding-top: 220px;
+}
+
+#nenparagrafi-article {
+    padding-top: 13px;
+}
+
+#third-section {
+    padding-top: 33px;
+}
+
+.subsections {
+    padding-top: 5px;
+}
+.subsection{
+    padding: 25px 25px 0px 0px;
+}
+
+#other-section {
+    padding-top: 14px;
+}
+.nenparagrafi {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    line-height: 1.62em;
+}
+
+.vector2 {
+    float: right;
+    padding-right: 145px;
+}
+
+.paragraf {
+    padding-top: 38px;
+    padding-bottom: 64px;
+    /* width: 458px; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #544837;
+    line-height: 1.5em;
+}
+
+.footer-info {
+    float: right;
+}
+
+textarea {
+    resize: none;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+    width: 325px;
+    padding: 10px 15px;
+}
+
+.footeri {
+    max-width: 470px;
+    margin: auto;
+}
+
+.white:hover {
+    background-color: #ffe6bf;
+}
+
+.footer-section {
+    display: inline-block;
+    padding: 40px;
+    color: #544837;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.articles {
+    display: flex;
+    padding-top: 54px;
+    justify-content: center;
+}
+
+.footer {
+    padding-top: 145px;
+}
+
+
+.articles article {
+    padding: 44px;
+}
+
+.nav_links li a:nth-child(4) {
+    padding-right: 54px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.logo_name {
+    color: #173A56;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.nav_links li a:hover {
+    color: #ac6700;
+}
+
+.orange{
+    color: white;
+    margin-left: 20px;
+    padding: 11px 23px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.orange-center{
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    color: white;
+    padding: 15px 34px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.getStarted{
+    color: white;
+    padding: 15px 41px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.playbutton {
+    padding-left: 30.5px;
+    margin: 0 auto;
+}
+
+.white{
+    color: black;
+    margin-left: 20px;
+    padding: 9px 25px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #173A56;
+}
+
+button:hover {
+    background-color: #ffb03a;
+}
+
+.getStarted:hover {
+    background-color: #ffb03a;
+}
+
+/*
+* Hero section
+*/
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-content .box:first-of-type{
+    width: 40%;
+}
+
+.video {
+    color: #FF9900;
+    text-decoration: underline;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video img {
+    width: 20px;
+    height: 17px;
+    margin-right: 8px;
+}
+
+.hero-content .box:last-of-type {
+    width: 50%;
+}
+
+.d-flex {
+    display: flex;
+}
