@@ -78,12 +78,7 @@ header {
 
 .container{
     margin: auto;
-    max-width: 1400px   ;
-}
-
-.container{
-    margin: auto;
-    max-width: 1400px   ;
+    max-width: 1400px;
 }
 
 [class*="section-title"] {
@@ -138,6 +133,8 @@ header {
 
 .effortless-validation{
     padding-top: 220px;
+    justify-content: space-around;
+    width: 40;;
 }
 
 #nenparagrafi-article {
@@ -184,10 +181,6 @@ header {
     line-height: 1.5em;
 }
 
-.footer-info {
-    float: right;
-}
-
 textarea {
     resize: none;
     background: #FFFFFF;
@@ -227,6 +220,7 @@ textarea {
 
 .footer {
     padding-top: 145px;
+    padding-left: 45px;
 }
 
 
@@ -329,6 +323,8 @@ button:hover {
     justify-content: space-around;
 }
 
+
+
 .hero-content .box:first-of-type{
     width: 40%;
 }
@@ -350,6 +346,11 @@ button:hover {
 
 .hero-content .box:last-of-type {
     width: 50%;
+}
+
+.effortless-validation .box:last-of-type {
+    width: 40%;
+    padding-left: 40px;
 }
 
 .d-flex {
